@@ -1,24 +1,10 @@
-# README
+# Entregable MOD 10
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+El siguiente proyecto es una app Rails, Boostrap para gestión de inventario de equipos electrónicos de un colegio.
 
-Things you may want to cover:
+## Modelos
 
-* Ruby version
+Cuenta con los modelos `grades` `user` `machine` `loans` donde un usuario puede tener asignada sólo una máquina en pŕestamo.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Alcance
+Debido al tiempo sólo se definió una app de tipo CRUD sin test, siguiendo la "arquitectura" MVC propuesta por el framework Rails
