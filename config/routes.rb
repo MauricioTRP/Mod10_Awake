@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'contact/index'
+  get 'menu/index'
   resources :loans
   resources :machines
   resources :users
